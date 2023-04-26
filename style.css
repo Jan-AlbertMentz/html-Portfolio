@@ -1,0 +1,110 @@
+body{
+    background: lightblue;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: darkslategray;
+    text-align: center;
+}
+#middlebody{
+    position: absolute;
+    width: 70%;
+    margin: 0% 15%;
+}
+footer{
+    position: relative;
+    width: 70%;
+    top: 90%;
+    left: 15%;
+}
+a{
+    color: lightslategrey;
+    text-decoration: none;
+}
+.footerancor{
+    padding: 0% 10%;
+}
+#imagesblock{
+    width: 50%;
+    margin-left: 25%;
+}
+img{
+    width: 100%;
+}
+
+#birthdayancor{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#movieancor{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#menu{
+    position: fixed;
+    width: 15%;
+    height: 50%;
+    margin: 0%;
+    padding: 0%;
+    border-right: 1px solid darkcyan;
+}
+.button{
+    width: 100%;
+    background: lightskyblue;
+    color: darkslategray;
+    border: 0;
+    margin-top: 5%;
+}
+
+#howitsgoingbody{
+    position: relative;
+    width: 100%;
+}
+.higimages{
+    height: 75px;
+    margin-left: 110%;
+    position: relative;
+    width: 100%;
+}
+#higimage{
+    width: 100%;
+
+}
+.higancor{
+    position: relative;
+    width: 11%;
+    margin-left: 150%;
+    display: block;
+    
+}
+#higfirstrow{
+    margin-bottom: 5%;
+}
+
+#firstimg{
+ display: inline-block;
+ margin-right: 5%;
+ margin-left: 5%;
+}
+#secondimg{
+    display: inline-block;
+    margin-right: 5%;
+}
+#thirdimg{
+    display: inline-block;
+    margin-right: 5%;
+}
+#fourimg{
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#fiveimg{
+    display: inline-block;
+    margin-right: 5%;
+}
+#siximg{
+    display:inline-block;
+    margin-right: 5%;
+}

@@ -5,35 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jan-Albert Mentz Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Jan-Albert Mentz Portfolio</h1>
-    <h2>I am a Student doing Web Development</h2>
-    <p>Here is where I started:</p>
-    <hr />
-    <img
-      src="./Assets/Images/BirthdayWebsite.png"
-      height="200"
-      alt="A screenshot of my Birthday Website"
-    />
-    <br />
-    <a href="./Assets/Websites/Birthday/Birthday Invite Project.html"
-      >Birthday Website</a
-    >
-    <hr />
-    <img
-      src="./Assets/Images/MovieRankingWebsite.png"
-      height="200"
-      alt="A screenshot of my movie ranking website"
-    />
-    <br />
-    <a href="./Assets/Websites/MovieRanking/Movie Ranking Project.html"
-      >Movie Ranking Website</a
-    >
-    <hr />
-    <p>Here is some more information about me</p>
-    <a href="./Assets/Websites/MultiPages/WebPages.html">About Me</a>
-    <br />
-    <a href="Assets/Websites/MultiPages/ContactMe.html">Contact Me</a>
+    <div id="middlebody">
+      <h1>Jan-Albert Mentz Portfolio</h1>
+      <h2>I am a Student doing Web Development</h2>
+      <h3>Here is where I started:</h3>
+      <hr />
+      <div id="imagesblock">
+        <img
+          src="./Assets/Images/BirthdayWebsite.png"
+          height="200"
+          alt="A screenshot of my Birthday Website"
+        />
+        <br />
+        <a
+          class="imgancor"
+          id="birthdayancor"
+          href="./Assets/Websites/Birthday/Birthday Invite Project.html"
+          >Birthday Website</a
+        >
+        <hr />
+        <img
+          src="./Assets/Images/MovieRankingWebsite.png"
+          height="200"
+          alt="A screenshot of my movie ranking website"
+        />
+        <br />
+        <a
+          class="imgancor"
+          id="movieancor"
+          href="./Assets/Websites/MovieRanking/Movie Ranking Project.html"
+          >Movie Ranking Website</a
+        >
+      </div>
+      <!--imageblock-->
+      <div id="howitsgoingbody">
+        <h3>How Its Going</h3>
+        <div id="higimage">
+          <div id="higfirstrow">
+            <div id="firstimg">
+              <img class="higimages" src="https://picsum.photos/75" alt="" />
+              <a class="higancor" href="">test</a>
+            </div>
+            <!--firstimg-->
+
+            <div id="secondimg">
+              <img class="higimages" src="https://picsum.photos/75" alt="" />
+              <a class="higancor" href="">test</a>
+            </div>
+            <!--secondimg-->
+
+            <div id="thirdimg">
+              <img class="higimages" src="https://picsum.photos/75" alt="" />
+              <a class="higancor" href="">test</a>
+            </div>
+            <!--thirdimg-->
+          </div>
+          <!--higfirstrow-->
+          <div id="higsecondrow">
+            <div id="fourimg">
+              <img class="higimages" src="https://picsum.photos/75" alt="" />
+              <a class="higancor" href="">test</a>
+            </div>
+            <!--fourimg-->
+
+            <div id="fiveimg">
+              <img class="higimages" src="https://picsum.photos/75" alt="" />
+              <a class="higancor" href="">test</a>
+            </div>
+            <!--fiveimg-->
+            <div id="siximg">
+              <img class="higimages" src="https://picsum.photos/75" alt="" />
+              <a class="higancor" href="">test</a>
+            </div>
+            <!--siximg-->
+          </div>
+          <!--higsecondrow-->
+        </div>
+        <!--higimages-->
+      </div>
+      <!--howitsgoingbody-->
+      <footer>
+        <hr />
+        <p>Here is some more information about me</p>
+        <a href="./Assets/Websites/MultiPages/WebPages.html" class="footerancor"
+          >About Me</a
+        >
+        <a href="Assets/Websites/MultiPages/ContactMe.html">Contact Me</a>
+      </footer>
+    </div>
+    <!--middlebody-->
+    <div id="menu">
+      <h2>Menu</h2>
+      <p>edit menu here</p>
+      <button class="button" name="Home" type="button">Home</button>
+      <button class="button" name="About Me" type="button">About Me</button>
+      <button class="button" name="Connect" type="button">Connect</button>
+      <button class="button" name="Websites" type="button">Websites</button>
+    </div>
+    <!--menu-->
   </body>
 </html>
